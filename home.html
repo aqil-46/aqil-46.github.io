@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="percobaanhome.css">
+    <link rel="stylesheet" href="fakeLoader.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Catering Mama Daffa</h2>
+        <nav class="navigation">
+        <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="alamat.html">Contact</a>
+            <a href="galeri.html">Gallery</a>  
+            </nav>
+    </header>
+    
+    <h1>Catering <br>Mama Daffa</h1>
+  
+    <div class="fakeLoader"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="fakeLoader.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $.fakeLoader({
+                    bgColor: '#004807',
+                    spinner:"spinner3"
+                });
+            });
+        </script>
+</body>
+</html>
